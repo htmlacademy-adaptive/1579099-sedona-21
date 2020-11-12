@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дарья Меледина](https://up.htmlacademy.ru/adaptive/21/user/1579099).
-* Наставник: `Неизвестно`.
+* Наставник: [Юрий Михин](https://htmlacademy.ru/profile/undgrnd).
 
 ---
 
