@@ -54,15 +54,15 @@
             <ul class="answer-box__list">
               <li class="answer-box__item">
                 <label for="name" class="answer-box__item-subject">Имя*:</label>
-                <input type="text" name="name" id="name" class="answer-box__area" placeholder="Петр" required>
+                <input type="text" name="name" id="name" class="answer-box__field" placeholder="Петр" required>
               </li>
               <li class="answer-box__item">
                 <label for="surname" class="answer-box__item-subject">Фамилия*:</label>
-                <input type="text" name="surname" id="surname" class="answer-box__area" placeholder="Иванов" required>
+                <input type="text" name="surname" id="surname" class="answer-box__field" placeholder="Иванов" required>
               </li>
               <li class="answer-box__item">
                 <label for="surname" class="answer-box__item-subject">Отчество:</label>
-                <input type="text" name="patronymic" id="patronymic" class="answer-box__area" placeholder="Александрович">
+                <input type="text" name="patronymic" id="patronymic" class="answer-box__field" placeholder="Александрович">
               </li>
             </ul>
           </fieldset>
@@ -71,50 +71,50 @@
             <ul class="answer-box__list">
               <li class="answer-box__item answer-box__item_large">
                 <label for="phone-number" class="answer-box__item-subject">Контактный телефон*:</label>
-                <input type="tel" name="phone-number-card" id="phone" class="answer-box__area-contacts" placeholder="Введите телефон" required>
+                <input type="tel" name="phone-number-card" id="phone" class="answer-box__field-contacts" placeholder="Введите телефон" required>
               </li>
               <li class="answer-box__item answer-box__item_large">
                 <label for="email" class="answer-box__item-subject">Электронная почта*:</label>
-                <input type="email" name="email-card" id="email" class="answer-box__area-contacts" placeholder="Введите e-mail" required>
+                <input type="email" name="email-card" id="email" class="answer-box__field-contacts" placeholder="Введите e-mail" required>
               </li>
             </ul>
           </fieldset>
-          <fieldset class="answer-box">
+          <fieldset class="answer-box answer-radio">
             <legend class="answer-box__title">Ваше общее впечатление:</legend>
-            <ul class="answer-box__list">
-              <li class="answer-box__item">
+            <ul class="answer-box__list answer-radio__list">
+              <li class="answer-box__item answer-radio__item">
                 <input type="radio" name="impression" id="positive" class="answer-box__input" value="positive" checked>
                 <label for="positive" class="answer-box__item-subject">Скорее положительное</label>
               </li>
-              <li class="answer-box__item">
+              <li class="answer-box__item answer-radio__item">
                 <input type="radio" name="impression" id="negative" class="answer-box__input" value="negative">
                 <label for="negative" class="answer-box__item-subject">Скорее отрицательное</label>
               </li>
-              <li class="answer-box__item">
+              <li class="answer-box__item answer-radio__item">
                 <input type="radio" name="impression" id="unknown" class="answer-box__input" value="unknown">
                 <label for="unknown" class="answer-box__item-subject">Затрудняюсь ответить</label>
               </li>
             </ul>
           </fieldset>
-          <fieldset class="answer-box">
+          <fieldset class="answer-box answer-checkbox">
             <legend class="answer-box__title">Посещенные достопримечательности:</legend>
-            <ul class="answer-box__list">
-              <li class="answer-box__item">
+            <ul class="answer-box__list answer-checkbox__list">
+              <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-devils-bridge" type="checkbox"
                   name="devils-bridge" checked>
                 <label class="answer-box__item-subject" for="devils-bridge">Мост Дьявола</label>
               </li>
-              <li class="answer-box__item">
+              <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-bell-mountain" type="checkbox"
                   name="bell-mountain" checked>
                 <label class="answer-box__item-subject" for="attractions-bell-mountain">Гора-Колокол</label>
               </li>
-              <li class="answer-box__item">
+              <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-slide-park" type="checkbox"
                   name="slide-park" checked>
                 <label class="answer-box__item-subject" for="attractions-slide-park">Слайд-парк</label>
               </li>
-              <li class="answer-box__item">
+              <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-red-rocks" type="checkbox"
                   name="red-rocks">
                 <label class="answer-box__item-subject" for="attractions-red-rocks">Красные скалы</label>
@@ -122,7 +122,7 @@
             </ul>
           </fieldset>
           <div class="answer-box">
-            <legend class="answer-box__title">Опишите свои эмоции:</legend>
+            <h3 class="answer-box__title">Опишите свои эмоции:</h3>
             <textarea class="answer-box__textarea" placeholder="Опишите подробно все свои восторги"></textarea>
           </div>
           <button type="submit" class="answer-box__submit-button">Отправить отзыв</button>
