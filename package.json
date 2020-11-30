@@ -13,8 +13,8 @@
     "gulp-sourcemaps": "3.0.0",
     "gulp-stylelint": "^13.0.0",
     "postcss": "8.1.7",
-    "stylelint": "^13.7.2",
-    "stylelint-config-htmlacademy": "0.1.4",
+    "stylelint": "^13.8.0",
+    "stylelint-config-htmlacademy": "^0.1.4",
     "stylelint-config-standard": "^20.0.0"
   },
   "scripts": {
@@ -39,5 +39,8 @@
   ],
   "engines": {
     "node": "14.15.0"
+  },
+  "dependencies": {
+    "test": "^0.6.0"
   }
 }

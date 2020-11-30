@@ -1,0 +1,24 @@
+.reason-card__title {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 21px;
+  text-align: center;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.reason-card__description {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 21px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.reason-card__wrapper {
+  background-color: var(--gray);
+}
+
+.reason-card__wrapper_active {
+  background-color: var(--sky-blue);
+}
