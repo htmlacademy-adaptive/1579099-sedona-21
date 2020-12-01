@@ -5,7 +5,6 @@ const sass = require("gulp-sass");
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 const sync = require("browser-sync").create();
-const gulpStylelint = require('gulp-stylelint');
 
 // Styles
 
@@ -50,17 +49,3 @@ const watcher = () => {
 exports.default = gulp.series(
   styles, server, watcher
 );
-
-function lintCss () {
-  return src("source/sass/**/*.scss")
-    pipe(gulpStylelint ({
-      reporters: [
-        {
-          formatter: "string",
-          console: true
-        }
-      ]
-    }));
-}
-
-exports.lintCss = lintCss;
