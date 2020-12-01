@@ -1,0 +1,65 @@
+.answer-box {
+  border: none;
+}
+
+.answer-box__title {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.answer-box__list {
+  list-style: none;
+}
+
+.answer-box__item-subject {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: $dark-gray;
+}
+
+.answer-box__item-subject_checkbox {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}
+
+.answer-box__item-subject_radio {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}
+
+.answer-box__textarea {
+  background-color: $light-blue;
+}
+
+.answer-box__submit-button {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: $white;
+  background-color: $sky-blue;
+  border: none;
+}
+
+.answer-box__field {
+  background-color: $light-blue;
+  border: none;
+}
+
+.answer-box__field-contacts {
+  background-color: $light-blue;
+  border: none;
+}

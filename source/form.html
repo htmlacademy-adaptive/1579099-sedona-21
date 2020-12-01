@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Форма</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -12,19 +14,19 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list">
             <li class="main-nav__item">
-              <span class="main-nav__item-content">
+              <a href="index.html" class="main-nav__item-content">
                 Главная
-              </span>
+              </a>
             </li>
             <li class="main-nav__item">
-              <a href="#" class="main-nav__item-content">
+              <a href="catalog.html" class="main-nav__item-content">
                 Фото и видео
               </a>
             </li>
             <li class="main-nav__item">
-              <a href="#" class="main-nav__item-content">
+              <span class="main-nav__item-content">
                 Форма отзыва
-              </a>
+              </span>
             </li>
             <li class="main-nav__item">
               <a href="#" class="main-nav__item-content">
@@ -84,15 +86,15 @@
             <ul class="answer-box__list answer-radio__list">
               <li class="answer-box__item answer-radio__item">
                 <input type="radio" name="impression" id="positive" class="answer-box__input" value="positive" checked>
-                <label for="positive" class="answer-box__item-subject">Скорее положительное</label>
+                <label for="positive" class="answer-box__item-subject answer-box__item-subject_radio">Скорее положительное</label>
               </li>
               <li class="answer-box__item answer-radio__item">
                 <input type="radio" name="impression" id="negative" class="answer-box__input" value="negative">
-                <label for="negative" class="answer-box__item-subject">Скорее отрицательное</label>
+                <label for="negative" class="answer-box__item-subject answer-box__item-subject_radio">Скорее отрицательное</label>
               </li>
               <li class="answer-box__item answer-radio__item">
                 <input type="radio" name="impression" id="unknown" class="answer-box__input" value="unknown">
-                <label for="unknown" class="answer-box__item-subject">Затрудняюсь ответить</label>
+                <label for="unknown" class="answer-box__item-subject answer-box__item-subject_radio">Затрудняюсь ответить</label>
               </li>
             </ul>
           </fieldset>
@@ -102,22 +104,22 @@
               <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-devils-bridge" type="checkbox"
                   name="devils-bridge" checked>
-                <label class="answer-box__item-subject" for="devils-bridge">Мост Дьявола</label>
+                <label class="answer-box__item-subject answer-box__item-subject_checkbox" for="devils-bridge">Мост Дьявола</label>
               </li>
               <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-bell-mountain" type="checkbox"
                   name="bell-mountain" checked>
-                <label class="answer-box__item-subject" for="attractions-bell-mountain">Гора-Колокол</label>
+                <label class="answer-box__item-subject answer-box__item-subject_checkbox" for="attractions-bell-mountain">Гора-Колокол</label>
               </li>
               <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-slide-park" type="checkbox"
                   name="slide-park" checked>
-                <label class="answer-box__item-subject" for="attractions-slide-park">Слайд-парк</label>
+                <label class="answer-box__item-subject answer-box__item-subject_checkbox" for="attractions-slide-park">Слайд-парк</label>
               </li>
               <li class="answer-box__item answer-checkbox__item">
                 <input class="answer-box__input" id="attractions-red-rocks" type="checkbox"
                   name="red-rocks">
-                <label class="answer-box__item-subject" for="attractions-red-rocks">Красные скалы</label>
+                <label class="answer-box__item-subject answer-box__item-subject_checkbox" for="attractions-red-rocks">Красные скалы</label>
               </li>
             </ul>
           </fieldset>
@@ -128,28 +130,28 @@
           <button type="submit" class="answer-box__submit-button">Отправить отзыв</button>
         </form>
       </section>
-      <footer class="page-footer">
-        <div class="page-footer__hashtag">
-          <p>#VisitSedona</p>
-        </div>
-        <div class="page-footer__social social">
-          <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link_vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link_facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link_instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
-            </li>
-          </ul>
-        </div>
-        <div class="page-footer__copyright copyright">
-          <p class="copyright__text">Разработано:</p>
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        </div>
-      </footer>
     </main>
+    <footer class="page-footer">
+      <div class="page-footer__hashtag">
+        <p>#VisitSedona</p>
+      </div>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link_vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link_facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link_instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <p class="copyright__text">Разработано:
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a></p>
+      </div>
+    </footer>
   </body>
 </html>
