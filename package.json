@@ -39,8 +39,5 @@
   ],
   "engines": {
     "node": "14.15.0"
-  },
-  "dependencies": {
-    "test": "^0.6.0"
   }
 }

@@ -1,5 +1,6 @@
 .reason-card__title {
   font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
   font-size: 21px;
   text-align: center;
   color: $white;
@@ -19,6 +20,6 @@
   background-color: $gray;
 }
 
-.reason-card__wrapper_active {
+.reason-card__wrapper_open {
   background-color: $sky-blue;
 }
