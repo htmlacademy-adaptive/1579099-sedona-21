@@ -1,5 +1,8 @@
-.points-section__name {
+.points-section {
   font-family: "PTsans", "Arial", serif;
+}
+
+.points-section__name {
   font-weight: 700;
   font-size: 21px;
   line-height: 26px;
@@ -11,7 +14,6 @@
 }
 
 .points-section__description {
-  font-family: "PTsans", "Arial", serif;
   font-size: 18px;
   line-height: 15px;
   text-transform: uppercase;
