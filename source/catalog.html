@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -45,67 +47,75 @@
           из-за курса? Фотографии помогут вам<br>
           забыть о политике и экономике</p>
       </div>
-      <section class="img-card">
+      <section class="img-card img-card-wrapper">
         <h3 class="visually-hidden">Фотокарточки живописных мест Седоны</h3>
         <ul class="img-card__list">
-          <li class="img-card__item picture">
-            <figure class="picture-wrap">
-              <a href="#"><img src="#" alt=""></a>
-              <figcaption class="picture__sign">
-                <p class="picture__name">Неродные просторы</p>
-                <p class="picture__author">Автор фото: Борис</p>
-                <p class="picture__likes">1350</p>
-              </figcaption>
-            </figure>
+          <li class="img-card__item">
+            <div class="picture">
+              <figure class="picture-wrap">
+                <a href="#"><img src="#" alt=""></a>
+                <figcaption class="picture__sign">
+                  <h3 class="picture__name">Неродные просторы</h3>
+                  <p class="picture__author">Автор фото: Борис</p>
+                  <span class="picture__likes">1350</span>
+                </figcaption>
+              </figure>
+            </div>
           </li>
-          <li class="img-card__item picture">
-            <figure class="picture-wrap">
-              <a href="#"><img src="#" alt=""></a>
-              <figcaption class="picture__sign">
-                <p class="picture__name">Местная растительность</p>
-                <p class="picture__author">Автор фото: Сергей</p>
-                <p class="picture__likes">143</p>
-              </figcaption>
-            </figure>
+          <li class="img-card__item">
+            <div class="picture">
+              <figure class="picture-wrap">
+                <a href="#"><img src="#" alt=""></a>
+                <figcaption class="picture__sign">
+                  <h3 class="picture__name">Местная растительность</h3>
+                  <p class="picture__author">Автор фото: Сергей</p>
+                  <span class="picture__likes">143</span>
+                </figcaption>
+              </figure>
+            </div>
           </li>
-          <li class="img-card__item picture">
-            <figure class="picture-wrap">
-              <a href="#"><img src="#" alt=""></a>
-              <figcaption class="picture__sign">
-                <p class="picture__name">Дорога на север</p>
-                <p class="picture__author">Автор фото: Петр</p>
-                <p class="picture__likes">96</p>
-              </figcaption>
-            </figure>
+          <li class="img-card__item">
+            <div class="picture">
+              <figure class="picture-wrap">
+                <a href="#"><img src="#" alt=""></a>
+                <figcaption class="picture__sign">
+                  <h3 class="picture__name">Дорога на север</h3>
+                  <p class="picture__author">Автор фото: Петр</p>
+                  <span class="picture__likes">96</span>
+                </figcaption>
+              </figure>
+            </div>
           </li>
-          <li class="img-card__item picture">
-            <figure class="picture-wrap">
-              <a href="#"><img src="#" alt=""></a>
-              <figcaption class="picture__sign">
-                <p class="picture__name">Мост Дьявола</p>
-                <p class="picture__author">Автор фото: Антон</p>
-                <p class="picture__likes">254</p>
-              </figcaption>
-            </figure>
+          <li class="img-card__item">
+            <div class="picture">
+              <figure class="picture-wrap">
+                <a href="#"><img src="#" alt=""></a>
+                <figcaption class="picture__sign">
+                  <h3 class="picture__name">Мост Дьявола</h3>
+                  <p class="picture__author">Автор фото: Антон</p>
+                  <span class="picture__likes">254</span>
+                </figcaption>
+              </figure>
+            </div>
           </li>
         </ul>
       </section>
-      <div class="view-card view">
+      <div class="view-card player">
         <h2 class="view-card__title">Все еще сомневаетесь?</h2>
         <p class="view-card__description">
           Смотрите видеопрезентацию и<br>
           скорее за билетами, пока они не<br>
           подорожали в очередной раз!
         </p>
-        <img src="#" class="view__picture" alt="">
-        <button type="button" class="view__repeat"></button>
-        <button type="button" class="view__subtitles"></button>
-        <button type="button" class="view__full-screen"></button>
+        <img src="#" class="player__picture" alt="">
+        <button type="button" class="player__repeat"></button>
+        <button type="button" class="player__subtitles"></button>
+        <button type="button" class="player__full-screen"></button>
       </div>
     </main>
     <footer class="page-footer">
       <div class="page-footer__hashtag">
-        <p>#VisitSedona</p>
+        <p class="page-footer__hashtag-text">#VisitSedona</p>
       </div>
       <div class="page-footer__social social">
         <ul class="social__list">
@@ -121,8 +131,8 @@
         </ul>
       </div>
       <div class="page-footer__copyright copyright">
-        <p class="copyright__text">Разработано:</p>
-        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <p class="copyright__text">Разработано:
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a></p>
       </div>
     </footer>
   </body>

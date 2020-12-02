@@ -1,8 +1,8 @@
-.main {
+.view-card {
   font-family: "PTsans", "Arial", serif;
 }
 
-.main__intro-title {
+.view-card__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
@@ -10,6 +10,9 @@
   text-transform: uppercase;
 }
 
-.main__logo {
-  background-image: url("../img/back-desktop.jpg");
+.view-card__description {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
