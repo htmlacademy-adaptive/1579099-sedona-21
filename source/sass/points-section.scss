@@ -11,6 +11,14 @@
 
 .points-section__list {
   list-style: none;
+  height: 418px;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 330px;
+  }
 }
 
 .points-section__description {

@@ -1,5 +1,12 @@
 .page-footer {
   font-family: "PTsans", "Arial", serif;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .page-footer__hashtag {
