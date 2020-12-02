@@ -1,0 +1,219 @@
+.booking-section__title {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.booking-section__info {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.booking-section__link {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.booking-section__link-search {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #81b3d2; }
+
+.copyright__text {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.copyright__link {
+  text-decoration: none; }
+
+.main__intro-title {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.main__logo {
+  background-image: url("../img/back-desktop.jpg"); }
+
+.main-nav__list {
+  list-style: none;
+  text-transform: uppercase; }
+
+.main-nav__item-content {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  line-height: 26px; }
+
+.page-footer__hashtag {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.page-main__logo-content {
+  background-image: url("../img/back-mobile.jpg"); }
+
+.points-section__name {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase; }
+
+.points-section__list {
+  list-style: none; }
+
+.points-section__description {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 18px;
+  line-height: 15px;
+  text-transform: uppercase; }
+
+.reason-card__title {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.reason-card__description {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 21px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.reason-card__wrapper {
+  background-color: #eeeeee; }
+
+.reason-card__wrapper_open {
+  background-color: #81b3d2; }
+
+.reason-section__list {
+  list-style: none; }
+
+.reason-section__intro-text {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.social__list {
+  list-style: none;
+  text-align: center; }
+
+.social__link {
+  text-decoration: none; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+@font-face {
+  font-family: "PTsans";
+  src: local("PTsans"), url("../fonts/ptsans.woff") format("woff"), url("../fonts/ptsans.woff2") format("woff2");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "PTsans";
+  src: local("PTsans"), url("../fonts/ptsansbold.woff") format("woff"), url("../fonts/ptsansbold.woff2") format("woff2");
+  font-weight: 700; }
+
+.answer-box {
+  border: none; }
+
+.answer-box__title {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.answer-box__list {
+  list-style: none; }
+
+.answer-box__item-subject {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333; }
+
+.answer-box__item-subject_checkbox {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none; }
+
+.answer-box__item-subject_radio {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none; }
+
+.answer-box__textarea {
+  background-color: #f2f2f2; }
+
+.answer-box__submit-button {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none; }
+
+.answer-box__field {
+  background-color: #f2f2f2;
+  border: none; }
+
+.answer-box__field-contacts {
+  background-color: #f2f2f2;
+  border: none; }
+
+.feedback-card__title {
+  font-family: "PTsans", "Arial", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.feedback-card__text {
+  font-family: "PTsans", "Arial", serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
