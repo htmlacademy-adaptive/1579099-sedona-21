@@ -1,0 +1,405 @@
+.booking-section {
+  font-family: "PTsans", "Arial", serif; }
+
+.booking-section__title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.booking-section__info {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.booking-section__link {
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.booking-section__link-search {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #81b3d2;
+  padding: 15px 32px 17px 32px;
+  width: 216px;
+  margin: auto; }
+
+.booking-section__card {
+  width: 100%;
+  height: 350px; }
+
+.copyright {
+  font-family: "PTsans", "Arial", serif; }
+
+.copyright__text {
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.copyright__link {
+  text-decoration: none; }
+
+.main {
+  font-family: "PTsans", "Arial", serif; }
+
+.main__intro-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.main__logo {
+  background-image: url("../img/back-desktop.jpg"); }
+
+.main-nav {
+  font-family: "PTsans", "Arial", serif; }
+
+.main-nav__list {
+  list-style: none;
+  text-transform: uppercase; }
+
+.main-nav__item-content {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+  line-height: 26px; }
+
+.page-footer {
+  font-family: "PTsans", "Arial", serif;
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .page-footer {
+      flex-direction: row;
+      justify-content: space-between; } }
+
+.page-footer__hashtag {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.page-main__logo-content {
+  background-image: url("../img/back-mobile.jpg");
+  display: flex;
+  flex-direction: column;
+  height: 389px; }
+  @media (min-width: 768px) {
+    .page-main__logo-content {
+      height: 518px; } }
+
+.points-section {
+  font-family: "PTsans", "Arial", serif; }
+
+.points-section__name {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase; }
+
+.points-section__list {
+  list-style: none;
+  height: 418px;
+  display: grid;
+  grid-template-columns: 1fr; }
+  @media (min-width: 768px) {
+    .points-section__list {
+      grid-template-columns: 1fr 1fr 1fr;
+      height: 330px; } }
+
+.points-section__description {
+  font-size: 18px;
+  line-height: 15px;
+  text-transform: uppercase; }
+
+.reason-card {
+  font-family: "PTsans", "Arial", serif; }
+
+.reason-card__title {
+  font-weight: 700;
+  font-size: 21px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.reason-card__description {
+  font-size: 21px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.reason-card__wrapper {
+  background-color: #eeeeee; }
+
+.reason-card__city {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .reason-card__city {
+      flex-direction: row; } }
+
+.reason-card__city-part1 {
+  background-color: #81b3d2;
+  height: 211px; }
+  @media (min-width: 768px) {
+    .reason-card__city-part1 {
+      height: 256px; } }
+
+@media (max-width: 767px) {
+  .reason-card__city-part2 {
+    height: 260px; } }
+
+@media (min-width: 768px) {
+  .reason-card__city-part2 {
+    height: 256px; } }
+
+@media (max-width: 767px) {
+  .reason-card__city-img {
+    width: 100%;
+    height: 260px; } }
+
+@media (min-width: 768px) {
+  .reason-card__city-img {
+    height: 256px; } }
+
+@media (min-width: 1200px) {
+  .reason-card__city-img {
+    height: 256px;
+    width: 800px; } }
+
+.reason-card__bridge {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .reason-card__bridge {
+      flex-direction: row-reverse; } }
+
+.reason-card__bridge-part1 {
+  background-color: #81b3d2;
+  height: 191px; }
+  @media (min-width: 768px) {
+    .reason-card__bridge-part1 {
+      height: 256px; } }
+
+@media (max-width: 767px) {
+  .reason-card__bridge-part2 {
+    height: 260px; } }
+
+@media (min-width: 768px) {
+  .reason-card__bridge-part2 {
+    height: 256px; } }
+
+@media (max-width: 767px) {
+  .reason-card__bridge-img {
+    width: 100%;
+    height: 260px; } }
+
+@media (min-width: 768px) {
+  .reason-card__bridge-img {
+    height: 256px; } }
+
+@media (min-width: 1200px) {
+  .reason-card__bridge-img {
+    height: 256px;
+    width: 800px; } }
+
+.reason-card-close-wrapper {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr; }
+  @media (min-width: 768px) {
+    .reason-card-close-wrapper {
+      grid-template-columns: 1fr 1fr 1fr; } }
+
+.reason-section {
+  font-family: "PTsans", "Arial", serif; }
+
+.reason-section__list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.reason-section__intro-text {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.social__list {
+  list-style: none;
+  text-align: center; }
+
+.social__link {
+  text-decoration: none; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+@font-face {
+  font-family: "PTsans";
+  src: local("PTsans"), url("../fonts/ptsans.woff") format("woff"), url("../fonts/ptsans.woff2") format("woff2");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "PTsans";
+  src: local("PTsans"), url("../fonts/ptsansbold.woff") format("woff"), url("../fonts/ptsansbold.woff2") format("woff2");
+  font-weight: 700; }
+
+.answer-box {
+  border: none;
+  font-family: "PTsans", "Arial", serif; }
+
+.answer-box__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.answer-box__list {
+  list-style: none; }
+
+.answer-box__item-subject {
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333; }
+
+.answer-box__item-subject_checkbox {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none; }
+
+.answer-box__item-subject_radio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none; }
+
+.answer-box__textarea {
+  background-color: #f2f2f2; }
+
+.answer-box__submit-button {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none; }
+
+.answer-box__field {
+  background-color: #f2f2f2;
+  border: none; }
+
+.answer-box__field-contacts {
+  background-color: #f2f2f2;
+  border: none; }
+
+.feedback-card {
+  font-family: "PTsans", "Arial", serif; }
+
+.feedback-card__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.feedback-card__text {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.img-card__list {
+  list-style: none; }
+
+.intro-card {
+  font-family: "PTsans", "Arial", serif;
+  text-transform: uppercase; }
+
+.intro-card__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center; }
+
+.intro-card__text {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center; }
+
+.picture {
+  font-family: "PTsans", "Arial", serif; }
+
+.picture__name {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px; }
+
+.picture__author {
+  font-size: 14px;
+  line-height: 24px; }
+
+.picture__likes {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px; }
+
+.view-card {
+  font-family: "PTsans", "Arial", serif; }
+
+.view-card__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.view-card__description {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .logo__welcome {
+    width: 188px;
+    height: 45px; } }
+
+@media (min-width: 768px) {
+  .logo__welcome-description {
+    width: 174px;
+    height: 29px; } }
+
+@media (min-width: 768px) {
+  .logo__sedona {
+    width: 461px;
+    height: 80px; } }
+
+@media (min-width: 768px) {
+  .logo__sedona-description {
+    width: 282px;
+    height: 74px; } }
+
+/*# sourceMappingURL=style.css.map */
