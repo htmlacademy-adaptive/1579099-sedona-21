@@ -55,6 +55,12 @@
   text-align: center;
   text-transform: uppercase; }
 
+.main__intro-text {
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase; }
+
 .main__logo {
   background-image: url("../img/back-desktop.jpg"); }
 
@@ -73,12 +79,12 @@
 
 .page-footer {
   font-family: "PTsans", "Arial", serif;
-  display: flex;
-  flex-direction: column; }
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr; }
   @media (min-width: 768px) {
     .page-footer {
-      flex-direction: row;
-      justify-content: space-between; } }
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr; } }
 
 .page-footer__hashtag {
   font-weight: 700;
@@ -86,15 +92,6 @@
   line-height: 26px;
   text-align: center;
   text-transform: uppercase; }
-
-.page-main__logo-content {
-  background-image: url("../img/back-mobile.jpg");
-  display: flex;
-  flex-direction: column;
-  height: 389px; }
-  @media (min-width: 768px) {
-    .page-main__logo-content {
-      height: 518px; } }
 
 .points-section {
   font-family: "PTsans", "Arial", serif; }
@@ -107,13 +104,11 @@
 
 .points-section__list {
   list-style: none;
-  height: 418px;
   display: grid;
   grid-template-columns: 1fr; }
   @media (min-width: 768px) {
     .points-section__list {
-      grid-template-columns: 1fr 1fr 1fr;
-      height: 330px; } }
+      grid-template-columns: 1fr 1fr 1fr; } }
 
 .points-section__description {
   font-size: 18px;
@@ -137,88 +132,60 @@
   color: #ffffff;
   text-transform: uppercase; }
 
-.reason-card__wrapper {
-  background-color: #eeeeee; }
-
 .reason-card__city {
+  background-color: #81b3d2;
   display: flex;
   flex-direction: column; }
   @media (min-width: 768px) {
     .reason-card__city {
       flex-direction: row; } }
 
-.reason-card__city-part1 {
-  background-color: #81b3d2;
-  height: 211px; }
+.reason-card__city-img-wrapper {
+  background-color: #eeeeee;
+  height: 260px; }
   @media (min-width: 768px) {
-    .reason-card__city-part1 {
+    .reason-card__city-img-wrapper {
       height: 256px; } }
 
-@media (max-width: 767px) {
-  .reason-card__city-part2 {
-    height: 260px; } }
-
-@media (min-width: 768px) {
-  .reason-card__city-part2 {
-    height: 256px; } }
-
-@media (max-width: 767px) {
-  .reason-card__city-img {
-    width: 100%;
-    height: 260px; } }
-
-@media (min-width: 768px) {
-  .reason-card__city-img {
-    height: 256px; } }
-
-@media (min-width: 1200px) {
-  .reason-card__city-img {
-    height: 256px;
-    width: 800px; } }
+.reason-card__city-img {
+  width: 100%;
+  height: 260px; }
+  @media (min-width: 768px) {
+    .reason-card__city-img {
+      height: 256px; } }
+  @media (min-width: 1200px) {
+    .reason-card__city-img {
+      height: 256px;
+      width: 800px; } }
 
 .reason-card__bridge {
+  background-color: #81b3d2;
   display: flex;
   flex-direction: column; }
   @media (min-width: 768px) {
     .reason-card__bridge {
       flex-direction: row-reverse; } }
 
-.reason-card__bridge-part1 {
-  background-color: #81b3d2;
-  height: 191px; }
+.reason-card__bridge-img-wrapper {
+  background-color: #eeeeee;
+  height: 260px; }
   @media (min-width: 768px) {
-    .reason-card__bridge-part1 {
+    .reason-card__bridge-img-wrapper {
       height: 256px; } }
 
-@media (max-width: 767px) {
-  .reason-card__bridge-part2 {
-    height: 260px; } }
-
-@media (min-width: 768px) {
-  .reason-card__bridge-part2 {
-    height: 256px; } }
-
-@media (max-width: 767px) {
-  .reason-card__bridge-img {
-    width: 100%;
-    height: 260px; } }
-
-@media (min-width: 768px) {
-  .reason-card__bridge-img {
-    height: 256px; } }
-
-@media (min-width: 1200px) {
-  .reason-card__bridge-img {
-    height: 256px;
-    width: 800px; } }
-
-.reason-card-close-wrapper {
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: 1fr; }
+.reason-card__bridge-img {
+  width: 100%;
+  height: 260px; }
   @media (min-width: 768px) {
-    .reason-card-close-wrapper {
-      grid-template-columns: 1fr 1fr 1fr; } }
+    .reason-card__bridge-img {
+      height: 256px; } }
+  @media (min-width: 1200px) {
+    .reason-card__bridge-img {
+      height: 256px;
+      width: 800px; } }
+
+.reason-card__wrapper {
+  background-color: #eeeeee; }
 
 .reason-section {
   font-family: "PTsans", "Arial", serif; }
@@ -227,12 +194,6 @@
   list-style: none;
   padding: 0;
   margin: 0; }
-
-.reason-section__intro-text {
-  font-size: 18px;
-  line-height: 26px;
-  text-align: center;
-  text-transform: uppercase; }
 
 .social__list {
   list-style: none;
@@ -382,24 +343,46 @@
   text-align: center;
   text-transform: uppercase; }
 
+.logo-content {
+  background-image: url("../img/back-mobile.jpg");
+  display: flex;
+  flex-direction: column; }
+
 @media (min-width: 768px) {
-  .logo__welcome {
+  .logo-content__welcome {
     width: 188px;
     height: 45px; } }
 
 @media (min-width: 768px) {
-  .logo__welcome-description {
+  .logo-content__welcome-description {
     width: 174px;
     height: 29px; } }
 
 @media (min-width: 768px) {
-  .logo__sedona {
+  .logo-content__sedona {
     width: 461px;
     height: 80px; } }
 
 @media (min-width: 768px) {
-  .logo__sedona-description {
+  .logo-content__sedona-description {
     width: 282px;
     height: 74px; } }
+
+.reason-card-close-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr; }
+  @media (min-width: 768px) {
+    .reason-card-close-wrapper {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr; } }
+
+.content-wrapper {
+  margin: 0 18px; }
+  @media (min-width: 768px) {
+    .content-wrapper {
+      margin: 0 40px; } }
+  @media (min-width: 1200px) {
+    .content-wrapper {
+      margin: 0 72px; } }
 
 /*# sourceMappingURL=style.css.map */
