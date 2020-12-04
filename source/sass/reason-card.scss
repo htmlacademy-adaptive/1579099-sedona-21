@@ -18,11 +18,8 @@
   text-transform: uppercase;
 }
 
-.reason-card__wrapper {
-  background-color: $gray;
-}
-
 .reason-card__city {
+  background-color: $sky-blue;
   display: flex;
   flex-direction: column;
 
@@ -31,19 +28,9 @@
   }
 }
 
-.reason-card__city-part1 {
-  background-color: $sky-blue;
-  height: 211px;
-
-  @media (min-width: $tablet-width) {
-    height: 256px;
-  }
-}
-
-.reason-card__city-part2 {
-  @media (max-width: $mobile-width-only) {
-    height: 260px;
-  }
+.reason-card__city-img-wrapper {
+  background-color: $gray;
+  height: 260px;
 
   @media (min-width: $tablet-width) {
     height: 256px;
@@ -51,10 +38,8 @@
 }
 
 .reason-card__city-img {
-  @media (max-width: $mobile-width-only) {
-    width: 100%;
-    height: 260px;
-  }
+  width: 100%;
+  height: 260px;
 
   @media (min-width: $tablet-width) {
     height: 256px;
@@ -67,6 +52,7 @@
 }
 
 .reason-card__bridge {
+  background-color: $sky-blue;
   display: flex;
   flex-direction: column;
 
@@ -75,19 +61,9 @@
   }
 }
 
-.reason-card__bridge-part1 {
-  background-color: $sky-blue;
-  height: 191px;
-
-  @media (min-width: $tablet-width) {
-    height: 256px;
-  }
-}
-
-.reason-card__bridge-part2 {
-  @media (max-width: $mobile-width-only) {
-    height: 260px;
-  }
+.reason-card__bridge-img-wrapper {
+  background-color: $gray;
+  height: 260px;
 
   @media (min-width: $tablet-width) {
     height: 256px;
@@ -95,10 +71,8 @@
 }
 
 .reason-card__bridge-img {
-  @media (max-width: $mobile-width-only) {
-    width: 100%;
-    height: 260px;
-  }
+  width: 100%;
+  height: 260px;
 
   @media (min-width: $tablet-width) {
     height: 256px;
@@ -110,12 +84,6 @@
   }
 }
 
-.reason-card-close-wrapper {
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: 1fr;
-
-  @media (min-width: $tablet-width) {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.reason-card__wrapper {
+  background-color: $gray;
 }

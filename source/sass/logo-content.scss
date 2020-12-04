@@ -1,25 +1,32 @@
-.logo__welcome {
+.logo-content {
+  background-image: url("../img/back-mobile.jpg");
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logo-content__welcome {
   @media (min-width: $tablet-width) {
     width: 188px;
     height: 45px;
   }
 }
 
-.logo__welcome-description {
+.logo-content__welcome-description {
   @media (min-width: $tablet-width) {
     width: 174px;
     height: 29px;
   }
 }
 
-.logo__sedona {
+.logo-content__sedona {
   @media (min-width: $tablet-width) {
     width: 461px;
     height: 80px;
   }
 }
 
-.logo__sedona-description {
+.logo-content__sedona-description {
   @media (min-width: $tablet-width) {
     width: 282px;
     height: 74px;
