@@ -1,9 +1,0 @@
-.reason-card-close-wrapper {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-
-  @media (min-width: $tablet-width) {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-}
