@@ -1,5 +1,12 @@
 .page-footer {
   font-family: "PTsans", "Arial", serif;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
 }
 
 .page-footer__hashtag {

@@ -11,6 +11,12 @@
 
 .points-section__list {
   list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .points-section__description {

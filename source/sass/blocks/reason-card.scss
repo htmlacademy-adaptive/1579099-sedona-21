@@ -1,0 +1,89 @@
+.reason-card {
+  font-family: "PTsans", "Arial", serif;
+}
+
+.reason-card__title {
+  font-weight: 700;
+  font-size: 21px;
+  text-align: center;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.reason-card__description {
+  font-size: 21px;
+  line-height: 18px;
+  text-align: center;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.reason-card__city {
+  background-color: $sky-blue;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+  }
+}
+
+.reason-card__city-img-wrapper {
+  background-color: $gray;
+  height: 260px;
+
+  @media (min-width: $tablet-width) {
+    height: 256px;
+  }
+}
+
+.reason-card__city-img {
+  width: 100%;
+  height: 260px;
+
+  @media (min-width: $tablet-width) {
+    height: 256px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 256px;
+    width: 800px;
+  }
+}
+
+.reason-card__bridge {
+  background-color: $sky-blue;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row-reverse;
+  }
+}
+
+.reason-card__bridge-img-wrapper {
+  background-color: $gray;
+  height: 260px;
+
+  @media (min-width: $tablet-width) {
+    height: 256px;
+  }
+}
+
+.reason-card__bridge-img {
+  width: 100%;
+  height: 260px;
+
+  @media (min-width: $tablet-width) {
+    height: 256px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 256px;
+    width: 800px;
+  }
+}
+
+.reason-card__wrapper {
+  background-color: $gray;
+}

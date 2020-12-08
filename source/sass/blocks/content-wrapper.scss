@@ -1,0 +1,96 @@
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 320px;
+
+  @media (min-width: $tablet-width) {
+    max-width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1200px;
+  }
+}
+
+.content-wrapper__header-navigation {
+  padding: 0 18px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 72px;
+  }
+}
+
+.content-wrapper__logo {
+  padding: 0 18px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 72px;
+  }
+}
+
+.content-wrapper__main-intro {
+  padding: 0 18px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 72px;
+  }
+}
+
+.content-wrapper__card-city {
+  padding: 0 18px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 72px;
+  }
+}
+
+.content-wrapper__card-bridge {
+  padding: 0 18px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 72px;
+  }
+}
+
+.content-wrapper__booking-text {
+  padding: 0 18px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 72px;
+  }
+}
+
+.content-wrapper__footer {
+  padding: 0 18px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 72px;
+  }
+}
